@@ -1,6 +1,6 @@
 
 /* New Things Every Day — Day 104 */
-/* Calculates simple statistics from sample value */
+/* Calculates simple statistics from sample values */
 
 function dailyLog104() {
     const values = [12, 25, 8, 41, 19];
