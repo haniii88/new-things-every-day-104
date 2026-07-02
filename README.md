@@ -1,2 +1,21 @@
-# new-things-every-day-104
-Daily automation script for Day 104 that generates a unique execution summary and keeps GitHub activity consistent.
+
+/* New Things Every Day — Day 104 */
+/* Calculates simple statistics from sample values */
+
+function dailyLog104() {
+    const values = [12, 25, 8, 41, 19];
+    const total = values.reduce((sum, value) => sum + value, 0);
+    const average = (total / values.length).toFixed(2);
+
+    const report = {
+        day: 104,
+        timestamp: new Date().toISOString(),
+        values,
+        total,
+        average
+    };
+
+    console.log("Day 104 Report:", report);
+}
+
+dailyLog104();
